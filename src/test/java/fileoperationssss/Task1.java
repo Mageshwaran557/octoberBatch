@@ -51,12 +51,12 @@ public static void main(String[] args) throws Exception
 	String s8=wbs3.getText();
 	System.out.println(s8);
 	
-//	TakesScreenshot ts=(TakesScreenshot)driver;
-//	File source= ts.getScreenshotAs(OutputType.FILE);
-//	File dest=new File("E:\\TEST\\simple.jpeg");
-//	FileUtils.copyFile(source, dest);
-//	WebElement wb =driver.findElement(By.xpath("//div[@class='YBLJE4']"));
-//	wb.click();
+	TakesScreenshot ts=(TakesScreenshot)driver;
+	File source= ts.getScreenshotAs(OutputType.FILE);
+	File dest=new File("E:\\TEST\\simple.jpeg");
+	FileUtils.copyFile(source, dest);
+	WebElement wb =driver.findElement(By.xpath("//div[@class='YBLJE4']"));
+	wb.click();
 	
 	
 //	WebElement wb2 = driver.findElement(By.id("powered"));
